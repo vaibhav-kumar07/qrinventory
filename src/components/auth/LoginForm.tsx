@@ -72,9 +72,9 @@ const LoginForm: React.FC = () => {
     };
 
     return (
-        <div className="relative w-full flex flex-col justify-center items-center md:w-1/2 bg-white p-8 rounded-3xl md:rounded-l-2xl shadow-md border border-gray-300">
+        <div className="relative w-full flex flex-col justify-center items-center md:w-1/2 bg-white p-10 rounded-3xl md:rounded-l-2xl md:rounded-r-none  shadow-md border border-gray-300">
             {/* Logo */}
-            <div className="absolute top-4 left-4">
+            <div className="">
                 <Logo />
             </div>
 
