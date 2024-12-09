@@ -93,8 +93,8 @@ const RegisterPage: React.FC = () => {
     };
 
     return (
-        <div className="w-full h-full flex flex-col justify-center items-center md:w-1/2 bg-white p-20 rounded-3xl md:rounded-l-3xl md:rounded-r-none shadow-md md:border-y md:border-l border-gray-300">
-            <div className="mb-0">
+        <div className="w-full h-full flex flex-col justify-center items-center md:w-1/2 bg-white px-4 md:p-20 rounded-3xl md:rounded-l-3xl md:rounded-r-none shadow-md md:border-y md:border-l border-gray-300">
+            <div className="mb-2">
                 <Logo />
             </div>
 
@@ -109,7 +109,7 @@ const RegisterPage: React.FC = () => {
             )}
 
             <form
-                className="w-full register-form grid grid-col-1 gap-3 px-4"
+                className="w-full register-form grid grid-col-1 gap-3 md:px-4"
                 onSubmit={handleSubmit}
             >
                 <Input

@@ -53,7 +53,7 @@ export default function LogoutConfirmationDialog({
         <>
             <button
                 onClick={handleDialogOpen}
-                className={` px-10 mt-1 flex items-center gap-3 text-gray-400 font-medium transition-colors ${className}`}
+                className={` px-10 mt-1 flex items-center gap-3 bg-gray-200 text-gray-800 font-medium transition-colors ${className}`}
             >
                 <FaSignOutAlt size={18} />
                 <span>Log out</span>

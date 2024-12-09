@@ -95,7 +95,7 @@ const QRScannerForm: React.FC<QRCodeFormProps> = ({ qrCodeData }) => {
                 <input
                     id="quantity"
                     type="number"
-                    value={quantity}
+                    value={0}
                     onChange={handleQuantityChange}
                     className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                     min={0}
