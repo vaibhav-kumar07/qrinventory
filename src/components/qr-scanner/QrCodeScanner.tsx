@@ -56,7 +56,7 @@ const QRCodeScanner: React.FC<QRCodeScannerProps> = ({ onScan }) => {
                 type="file"
                 accept="image/*"
                 onChange={handleImageUpload}
-                className="mb-4 p-2 border rounded-md"
+                className="mb-4 p-2 border rounded-md px-6 md:p-0"
             />
             {qrData ? (
                 <div className="mt-4 text-center">
